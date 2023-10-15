@@ -1,1 +1,2 @@
-<h1>This is first laravel view page open.</h1>
+<h1>This is My First Name: {{ $firstKey }}</h1>
+<h1>This is My Last Name: {{ $lastKey }}</h1>

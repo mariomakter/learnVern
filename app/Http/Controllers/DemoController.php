@@ -6,6 +6,6 @@ class DemoController extends Controller
 {
     public function Demo($firstName, $lastName)
     {
-        return view('DemoView', ['firstkey'=> $firstName, 'lastName'=> $lastName]);
+        return view('DemoView', ['firstKey'=> $firstName, 'lastKey'=> $lastName]);
     }
 }
