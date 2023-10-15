@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 class DemoController extends Controller
 {
-    public function Demo($firstNam, $lastName)
+    public function Demo($firstName, $lastName)
     {
-        return "First Name: ".$firstNam." Last Name: ".$lastName;
+        return view('DemoView', ['firstkey'=> $firstName, 'lastName'=> $lastName]);
     }
 }
