@@ -8,6 +8,7 @@ class HomeController extends Controller
 {
     function showHome(){
         $data = array();
-        return view('Home', ['dataKey'=> $data]);
+        $loginStatus = true;
+        return view('Home', ['dataKey'=> $data, 'loginStatusKey'=> 'loginStatus']);
     }
 }
