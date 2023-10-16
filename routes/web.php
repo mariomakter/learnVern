@@ -1,8 +1,5 @@
 <?php
 
-use App\Http\Controllers\MyController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
-
-
-Route::get('/', MyController::class);
-
+route::get('/', [HomeController::class, 'showHome']);
